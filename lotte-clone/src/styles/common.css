@@ -1,0 +1,29 @@
+.inner {
+	display: block;
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+	all: unset;
+	cursor: pointer;
+}
+
+html {
+	font-family: 'Maison', 'Noto Sans KR', 'Sans-serif', Arial, '돋움';
+}
+
+body {
+	height: 100%;
+	font-size: 15px;
+	line-height: 1;
+	color: #262626;
+}

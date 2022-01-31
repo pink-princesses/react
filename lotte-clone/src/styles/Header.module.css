@@ -1,0 +1,99 @@
+/* HEADER */
+.header {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 140px;
+	padding: 26px 0 0 0;
+	background-color: #fff;
+}
+.header .box_top {
+	display: block;
+	position: relative;
+	height: 33px;
+	z-index: 31;
+}
+
+.header .box_top .util_wrap {
+	display: block;
+	float: right;
+}
+
+.header .box_top .util_wrap .link_list {
+	display: inline-block;
+	float: left;
+	margin-top: 7px;
+}
+
+.header .box_top .util_wrap .link_list li:first-child::before {
+	display: none;
+}
+.header .box_top .util_wrap .link_list>li:nth-child(1)>a,
+.header .box_top .util_wrap .link_list>li:nth-child(2)>a {
+	padding: 0 13px 0 0;
+	background: url(https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/icon_arrow_header_blk.png) no-repeat 100% 50%;
+}
+
+.header .box_top .util_wrap .etc_list {
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+}
+.header .box_top .util_wrap .etc_list li {
+	display: inline-block;
+	margin-left: 0;
+}
+.header .box_top .util_wrap .etc_list a {
+	display: block;
+	width: 29px;
+	height: 29px;
+	text-indent: -9999px;
+	background: url(https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/gnb_search.png) no-repeat 50% 50%;
+	background-size: 100%;
+	margin-right: -8px;
+}
+
+.header .gnb_wrap {
+	display: block;
+	position: relative;
+	margin-top: 34px;
+	z-index: 30;
+}
+
+.header .gnb_wrap .gnb{
+	display: block;
+	position: relative;
+}
+
+.header .gnb_wrap .gnb .gnb_list{
+	float: left;
+}
+
+.header .gnb_wrap .gnb>h1{
+	float: left;
+}
+.header .gnb_wrap .gnb>h1>a{
+	display: block;
+	width: 102px;
+	height: 33px;
+	background: url(https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/gnb_ci.png) no-repeat 0 0;
+	background-size: 102px 33px;
+	text-indent: -9999px;
+}
+
+.header .gnb_wrap .gnb>ul li:first-child{
+	margin-left: 52px;
+}
+
+.header .gnb_wrap .link{
+	float: right;
+	font-size: 14px;
+	color: #626161;
+}
+
+.header .gnb_wrap .link img{
+	margin-right: 10px;
+	opacity: 0.8;
+	width: 20%;
+	vertical-align: middle;
+}
