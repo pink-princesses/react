@@ -1,0 +1,43 @@
+.inner_group .in_card .txt01{
+	position: relative;
+	width: 100%;
+	font-size: 20px;
+	line-height: 20px;
+	color: #9c9c9c;
+	padding-top: 42px;
+	padding-left: 0;
+	font-weight: 300;
+}
+.inner_group .in_card .txt02{
+	position: relative;
+	width: 100%;
+	font-size: 34px;
+	line-height: 34px;
+	padding-top: 10px;
+	padding-left: 0;
+	color: #252525;
+	font-weight: 500;
+}
+.inner_group .in_card .txt03,
+.inner_group .in_card .txt04{
+	position: relative;
+	width: 100%;
+	font-size: 18px;
+	line-height: 26px;
+	padding-top: 16px;
+	padding-left: 0;
+	color: #9c9c9c;
+	letter-spacing: -1.2px;
+	font-weight: 300;
+}
+
+.inner_group .in_card .btn{
+	position: relative;
+	box-sizing: border-box;
+	font-size: 13px;
+	text-decoration: none;
+	padding: 5px 36px;
+	border: 1px solid #ababab;
+	color: #656565;
+	top: 80px;
+}

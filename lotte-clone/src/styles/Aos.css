@@ -1,0 +1,41 @@
+.aos_wrap{
+	height: auto;
+	overflow: hidden;
+}
+.aos_wrap .title{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 34px;
+	background: no-repeat;
+}
+.aos_wrap .txt01{
+	position: relative;
+	font-size: 34px;
+	line-height: 40px;
+	padding-top: 12px;
+	font-weight: 500;
+	color: #252525;
+	font-weight: 500;
+}
+.aos_wrap .txt02{
+	position: relative;
+	font-size: 18px;
+	line-height: 18px;
+	padding-top: 22px;
+	padding-left: 3px;
+	color: #9c9c9c;
+	letter-spacing: -1.2px;
+	font-weight: 300;
+}
+.card_wrap{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-top: 38px;
+}
+.card_wrap ul{
+	display: flex;
+	justify-content: space-between;
+}

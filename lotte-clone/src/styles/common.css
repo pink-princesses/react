@@ -27,3 +27,34 @@ body {
 	line-height: 1;
 	color: #262626;
 }
+
+.btn_wrap {
+	display: block;
+	position: relative;
+	font-size: 0;
+}
+
+.btn_wrap .link:first-child {
+	margin-left: 0;
+}
+.btn_wrap .link {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 11px 0;
+	font-size: 14px;
+	color: #000;
+	line-height: 19px;
+}
+
+.btn_wrap .black {
+	padding: 11px 30px;
+	border: 1px solid #000;
+}
+.btn_wrap .link .arr {
+	display: inline-block;
+	width: 18px;
+	height: 19px;
+	margin-left: 20px;
+	background: url(https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/btn_arrow.png) no-repeat 50% 50%;
+	vertical-align: top;
+}
