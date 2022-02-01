@@ -1,0 +1,246 @@
+#footer {
+    display: block;
+    position: relative;
+    width: 1180px;
+    margin: 50px auto 0;
+    padding: 0 0 65px;
+    background-color: #f4f4f4;
+    color: #fff;
+    z-index: 20;
+}
+#footer .inner {
+    display: block;
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+    padding: 42px 38px 70px;
+}
+
+.servCenter_box {
+    background: #9a9a9a;
+}
+.servCenter_box .inner {
+    padding: 0 0;
+    height: 43px;
+    box-sizing: border-box;
+}
+.servCenter_box .lottes {
+    float: left;
+    width: 300px;
+    padding: 14px 30px 14px 38px;
+    box-sizing: border-box;
+}
+
+.servCenter_list {
+    float: left;
+    width: 635px;
+}
+.servCenter_list > li {
+    position: relative;
+    float: left;
+}
+.servCenter_list > li > a {
+    display: inline-block;
+    padding: 14px 20px 14px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+.servCenter_list > li:first-child a {
+    padding: 14px 20px 14px 0px;
+}
+
+#footer .btn_top {
+    cursor: pointer;
+    float: right;
+    width: 110px;
+    height: 43px;
+    text-align: center;
+}
+#footer .btn_top a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 14px 0 14px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background: #7b7b7b;
+}
+#footer .btn_top .arr {
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+    margin-left: 10px;
+    background: url("https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/footer_familysite_arrow_open.png") no-repeat 0 50%;
+    vertical-align: top;
+}
+#footer .servCenter_box .inner {
+    padding: 0 0;
+    height: 43px;
+    box-sizing: border-box;
+}
+#footer>.inner{
+    height: 236px;
+}
+#footer .inner .family_wrap_v2 {
+    position: relative;
+    width: 268px;
+    float: left;
+    margin-top: 0;
+    vertical-align: top;
+    z-index: 5;
+}
+#footer .inner .family_wrap_v2 dl {
+    display: block;
+    position: relative;
+    float: left;
+}
+#footer .inner .family_wrap_v2 dl dt {
+    display: block;
+    background: #3d3c3a;
+}
+#footer .inner .family_wrap_v2 dl dt button {
+    display: block;
+    padding: 6px 38px 6px 24px;
+    border: 1px solid #3d3c3a;
+    position: relative;
+    background: url("https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/footer_familysite_arrow_open.png") no-repeat 136px 50%;
+    background-size: 6%;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+#footer .inner .family_wrap_v2 dl dd {
+    display: none;
+    position: absolute;
+    margin-top: 29px;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    width: 100%;
+    height: 162px;
+    border: 1px solid #9a9a9a;
+    background-color: #fff;
+    z-index: 10;
+}
+#footer .inner .family_wrap_v2 dl dd ul {
+    display: block;
+    padding: 10px;
+}
+
+#footer .box_wrap02 {
+    display: block;
+    float: left;
+    width: 436px;
+    /* border: 1px solid purple; */
+}
+#footer .link_box {
+    display: block;
+    position: relative;
+}
+#footer .link_list {
+    display: block;
+    position: relative;
+    width: 380px;
+    font-size: 0;
+}
+#footer .link_list li {
+    display: inline-block;
+    position: relative;
+    width: 124px;
+    font-weight: 500;
+}
+#footer .link_list li:nth-child(even) {
+    width: 220px;
+    font-weight: 700;
+}
+#footer .link_list li:nth-child(6) {
+    font-weight: 500;
+}
+#footer .link_list li a {
+    display: block;
+    padding: 0 0 7px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #535353;
+}
+
+#footer .box_wrap04 {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 384px;
+    /* background-color: rgba(46, 139, 86, 0.171); */
+}
+#footer .box_wrap04 ul.award_list li:first-child {
+    width: 60%;
+}
+#footer .box_wrap04 ul.award_list li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: auto;
+    font-size: 9px;
+    color: #535353;
+    padding-bottom: 20px;
+}
+#footer .box_wrap04 ul.award_list li:last-child {
+    width: 100% !important;
+}
+#footer .box_wrap04 ul.award_list li img {
+    float: left;
+}
+#footer .box_wrap04 ul.award_list li p {
+    float: left;
+    padding: 3px 10px;
+    box-sizing: border-box;
+    line-height: 14px;
+}
+
+#footer .box_wrap01 {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 35px 38px 0;
+    border-top: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+#footer .box_wrap01 .txt_box {
+    display: inline-block;
+    position: relative;
+}
+#footer .box_wrap01 .txt_box p.name {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    float: left;
+    color: #707070;
+    line-height: 24px;
+}
+#footer .box_wrap01 .txt_box .txt_list {
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    line-height: 24px;
+}
+#footer .box_wrap01 .txt_box .txt_list li:first-child {
+    padding-left: 0;
+    color: #535353;
+}
+#footer .box_wrap01 .txt_box .txt_list li {
+    display: inline-block;
+    position: relative;
+    padding: 0 11px;
+    font-size: 13px;
+    color: #707070;
+    line-height: 24px;
+}
+#footer .box_wrap01 .txt_box .copyright {
+    display: block;
+    position: relative;
+    font-size: 13px;
+    color: #707070;
+    line-height: 24px;
+}
